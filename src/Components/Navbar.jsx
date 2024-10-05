@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState } from "react";
 import ToggleHeader from "./ToggleHeader";
 import { MdOutlineClear, MdOutlineMenu } from "react-icons/md";
@@ -45,9 +44,6 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-           
-          </li>
-          <li>
             <NavLink
               to="/resume"
               className={({ isActive }) =>
@@ -88,8 +84,7 @@ const Navbar = () => {
           </button>
         )}
       </nav>
-
-      {toggle && <ToggleHeader />}
+      {toggle && <ToggleHeader setToggle={setToggle} />}
     </>
   );
 };

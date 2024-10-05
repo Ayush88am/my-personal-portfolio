@@ -1,5 +1,4 @@
 import React from "react";
-
 const AboutMe = () => {
   return (
     <div className="flex items-center flex-col mt-24">
@@ -27,9 +26,9 @@ const AboutMe = () => {
           difference!
         </p>
       </div>
-      <button className=" bg-sky-400 hover:bg-purple-500 mt-16 h-14 w-36 text-2xl rounded mb-20">
+      <a href="/" className=" bg-sky-400 text-center align-middle p-3 hover:bg-purple-500 mt-16 h-14 w-36 text-2xl rounded mb-20">
         &#123;read_more&#125; 
-      </button>
+      </a>
     </div>
   );
 };
