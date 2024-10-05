@@ -14,7 +14,7 @@ const BioContentResume = () => {
       <h1 className="text-2xl text-red-500 font-bold">
         ?? ....click below to see my resume.....??
       </h1>
-      <a
+      <a target='_blank'
         className="text-3xl underline"
         href="https://drive.google.com/file/d/1tX80bR3d0iUJw_JTgGGeb-9ZJN4mkxpZ/view?usp=drive_link"
       >
