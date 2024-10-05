@@ -16,11 +16,6 @@ const BioContentResume = () => {
       </h1>
       <a
         className="text-3xl underline"
-<<<<<<< HEAD
-        target="_blank"
-=======
-        target='_blank'
->>>>>>> 1259fe98ff8b3d756f7885830e20a20c3dd0ea88
         href="https://drive.google.com/file/d/1tX80bR3d0iUJw_JTgGGeb-9ZJN4mkxpZ/view?usp=drive_link"
       >
         RESUME
